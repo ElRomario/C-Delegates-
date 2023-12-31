@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\bin\Debug\net8.0\LikeMeNetwork.exe
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\bin\Debug\net8.0\LikeMeNetwork.deps.json
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\bin\Debug\net8.0\LikeMeNetwork.runtimeconfig.json
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\bin\Debug\net8.0\LikeMeNetwork.dll
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\bin\Debug\net8.0\LikeMeNetwork.pdb
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.AssemblyInfo.cs
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.dll
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\refint\LikeMeNetwork.dll
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.pdb
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.genruntimeconfig.cache
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\ref\LikeMeNetwork.dll
