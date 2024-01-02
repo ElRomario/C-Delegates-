@@ -12,3 +12,4 @@ C:\Users\User\source\repos\DelegatesC#\Calendar\obj\Debug\net8.0\refint\Calendar
 C:\Users\User\source\repos\DelegatesC#\Calendar\obj\Debug\net8.0\Calendar.pdb
 C:\Users\User\source\repos\DelegatesC#\Calendar\obj\Debug\net8.0\Calendar.genruntimeconfig.cache
 C:\Users\User\source\repos\DelegatesC#\Calendar\obj\Debug\net8.0\ref\Calendar.dll
+C:\Users\User\source\repos\DelegatesC#\Calendar\obj\Debug\net8.0\Calendar.sourcelink.json

@@ -12,3 +12,4 @@ C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\refint\Lik
 C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.pdb
 C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.genruntimeconfig.cache
 C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\ref\LikeMeNetwork.dll
+C:\Users\User\source\repos\DelegatesC#\LikeMeNetwork\obj\Debug\net8.0\LikeMeNetwork.sourcelink.json

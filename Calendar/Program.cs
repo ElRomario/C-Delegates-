@@ -18,7 +18,7 @@ namespace Calendar
             calendar.HolidayOccured += observer.handleEvent;
             for (int i = 0; i < 15; i++)
             {
-                Console.Write($" It's {calendar.CurrentDay} day and ");
+                Console.Write($" It's {calendar.CurrentDay} day of the month and ");
                 calendar.moveDay();
                 calendar.checkForHoliday();
             

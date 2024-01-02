@@ -48,8 +48,5 @@ class Program
 
         userAnton.Like(userMichael);
         
-
-
-
     }
 }
