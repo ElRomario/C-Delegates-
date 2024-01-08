@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\bin\Debug\net8.0\SocialNetwork.exe
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\bin\Debug\net8.0\SocialNetwork.deps.json
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\bin\Debug\net8.0\SocialNetwork.runtimeconfig.json
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\bin\Debug\net8.0\SocialNetwork.dll
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\bin\Debug\net8.0\SocialNetwork.pdb
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\SocialNetwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\SocialNetwork.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\SocialNetwork.AssemblyInfo.cs
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\SocialNetwork.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\SocialNetwork.sourcelink.json
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\SocialNetwork.dll
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\refint\SocialNetwork.dll
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\SocialNetwork.pdb
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\SocialNetwork.genruntimeconfig.cache
+C:\Users\User\source\repos\DelegatesC#\SocialNetwork\obj\Debug\net8.0\ref\SocialNetwork.dll
