@@ -12,3 +12,4 @@ C:\Users\User\source\repos\DelegatesC#\Observer\obj\Debug\net8.0\refint\Observer
 C:\Users\User\source\repos\DelegatesC#\Observer\obj\Debug\net8.0\Observer.pdb
 C:\Users\User\source\repos\DelegatesC#\Observer\obj\Debug\net8.0\Observer.genruntimeconfig.cache
 C:\Users\User\source\repos\DelegatesC#\Observer\obj\Debug\net8.0\ref\Observer.dll
+C:\Users\User\source\repos\DelegatesC#\Observer\obj\Debug\net8.0\Observer.sourcelink.json
