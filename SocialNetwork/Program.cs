@@ -12,25 +12,29 @@ namespace SocialNetwork
         static void Main(string[] args)
         {
             LikeMeNetwork likeNetwork = new LikeMeNetwork();
+            NewsDealer newsDealer = new NewsDealer("Wow it happend");
+            NewsDealer newsDealerAboutSmth = new NewsDealer("Something happend");
             List<User> users = new List<User>();
 
             UserListInitializer(users);
-            SubscribeListElements(users, likeNetwork);
+            SubscribeListElements(users, likeNetwork, newsDealer);
             LikeRandomizer(users, likeNetwork);
 
-            PublishNews(likeNetwork, new string("Wow it happend!"));
+            PublishNews(newsDealer);
+            PublishNews(newsDealerAboutSmth);
             foreach (User user in users)
             {
                 user.PrintAllNotifications();
             }
         }
 
-        static void SubscribeListElements(List<User> users, LikeMeNetwork network)
+        static void SubscribeListElements(List<User> users, LikeMeNetwork network, NewsDealer newsDealer)
         {
             foreach(User user in users)
             {
                 network.LikeOccured += user.HandeLikeEvent;
-                network.NewsOccured += user.HandleNewsEvent;
+                newsDealer.NewsOccured += user.HandleNewsEvent;
+                
             }
         }
         static void UserListInitializer(List<User> users)
@@ -72,9 +76,9 @@ namespace SocialNetwork
                 count++;
             }
         }
-        static void PublishNews( LikeMeNetwork net, string newsMessage)
+        static void PublishNews(NewsDealer news)
         {
-            net.NewsPublisher(newsMessage);
+            news.NewsPublisher();
         }
         }
     }
