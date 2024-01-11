@@ -28,13 +28,15 @@ namespace SocialNetwork
             }
         }
 
-        static void SubscribeListElements(List<User> users, LikeMeNetwork network, NewsDealer newsDealer, NewsDealer newsDealer2)
+        static void SubscribeListElements(List<User> users, LikeMeNetwork network, params NewsDealer[] newsDealer)
         {
-            foreach(User user in users)
+            foreach (User user in users)
             {
-                network.LikeOccured += user.HandeLikeEvent;
-                newsDealer.NewsOccured += user.HandleNewsDealer;
-                newsDealer2.NewsOccured += user.HandleNewsDealer;
+                foreach (NewsDealer news in newsDealer)
+                {
+                    network.LikeOccured += user.HandeLikeEvent;
+                    news.NewsOccured += user.HandleNewsDealer;
+                }
             }
         }
         static void UserListInitializer(List<User> users)
