@@ -17,7 +17,7 @@ namespace SocialNetwork
             List<User> users = new List<User>();
 
             UserListInitializer(users);
-            SubscribeListElements(users, likeNetwork, newsDealer);
+            SubscribeListElements(users, likeNetwork, newsDealer, newsDealerAboutSmth);
             LikeRandomizer(users, likeNetwork);
 
             PublishNews(newsDealer);
@@ -28,13 +28,13 @@ namespace SocialNetwork
             }
         }
 
-        static void SubscribeListElements(List<User> users, LikeMeNetwork network, NewsDealer newsDealer)
+        static void SubscribeListElements(List<User> users, LikeMeNetwork network, NewsDealer newsDealer, NewsDealer newsDealer2)
         {
             foreach(User user in users)
             {
                 network.LikeOccured += user.HandeLikeEvent;
-                newsDealer.NewsOccured += user.HandleNewsEvent;
-                
+                newsDealer.NewsOccured += user.HandleNewsDealer;
+                newsDealer2.NewsOccured += user.HandleNewsDealer;
             }
         }
         static void UserListInitializer(List<User> users)

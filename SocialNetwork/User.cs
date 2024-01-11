@@ -22,6 +22,7 @@ namespace SocialNetwork
             Name = name;
             ID++;
         }
+
         public void HandeLikeEvent(User likingUser, User likedUser, DateTime time)
         {
             messages.Add($"User {this.Name} recieved that: \n        user {likingUser.Name} liked {likedUser.Name} at {time}");
@@ -30,6 +31,11 @@ namespace SocialNetwork
         {
             messages.Add($"User{this.Name} recieved news: \n {newsMessage}");
         }
+        public void HandleNewsDealer(string message)
+        {
+            messages.Add($"User {this.Name} recieved news: \n {message}");
+        }
+
         public void PrintAllNotifications()
         {
             Console.WriteLine($"==========\nNotifications that {this.Name} receieved\n==========");
