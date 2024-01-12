@@ -27,10 +27,6 @@ namespace SocialNetwork
         {
             messages.Add($"User {this.Name} recieved that: \n        user {likingUser.Name} liked {likedUser.Name} at {time}");
         }
-        public void HandleNewsEvent(string newsMessage)
-        {
-            messages.Add($"User{this.Name} recieved news: \n {newsMessage}");
-        }
         public void HandleNewsDealer(string message)
         {
             messages.Add($"User {this.Name} recieved news: \n {message}");
