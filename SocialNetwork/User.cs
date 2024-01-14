@@ -29,7 +29,7 @@ namespace SocialNetwork
         }
         public void HandleNewsDealer(string message)
         {
-            messages.Add($"User {this.Name} recieved news: \n {message}");
+            messages.Add($"====================\nUser {this.Name} recieved news: \n {message}\n====================");
         }
 
         public void PrintAllNotifications()

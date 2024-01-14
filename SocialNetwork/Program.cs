@@ -22,9 +22,19 @@ namespace SocialNetwork
 
             PublishNews(newsDealer);
             PublishNews(newsDealerAboutSmth);
-            foreach (User user in users)
+            PrintAllNotifications(users);
+
+            UnSubScribe(newsDealer, users[1], users[2]);
+            PrintAllNotifications(users);
+
+        }
+
+        static void PrintAllNotifications(List<User> users)
+        {
+            foreach (User user in users) 
             {
                 user.PrintAllNotifications();
+            
             }
         }
 
@@ -76,6 +86,16 @@ namespace SocialNetwork
                 
                 net.Like(users[index1], users[index2], time);
                 count++;
+            }
+        }
+
+        static void UnSubScribe(NewsDealer news, params User[] users) 
+        {
+            foreach(User user in users)
+            {
+                news.NewsOccured -= user.HandleNewsDealer;
+                Console.WriteLine($"====================\n{user.Name} unsubscribbed!\n====================");
+
             }
         }
         static void PublishNews(NewsDealer news)
